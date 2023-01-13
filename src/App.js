@@ -17,14 +17,16 @@ export class App extends Component {
   render() {
     return (
       <div className='App'>
-          <NavBar />
           <BrowserRouter>
-            <Routes>
-              <Route  path='/' element={<Home />}/>
-              <Route  path='/login' element={<Login />}/>
-              <Route  path='/signup' element={<Signup />}/>
-              <Route  path='/dashboard' element={ <Dashboard />}/>
-            </Routes>
+            <NavBar />
+            <div className='container'>
+              <Routes>
+                <Route  path='/' element={<Home />}/>
+                <Route  path='/login' element={<Login />}/>
+                <Route  path='/signup' element={<Signup />}/>
+                <Route  path='/dashboard' element={ <Dashboard />}/>
+              </Routes>
+            </div>
           </BrowserRouter>
       </div>
     )

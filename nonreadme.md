@@ -37,3 +37,10 @@ CTL + ALT + DOWN / UP
     done
 
     https://stackoverflow.com/questions/48458334/functions-are-not-valid-as-a-react-child-this-may-happen-if-you-return-a-compon
+      
+
+8. add NAV BAR
+
+9. homePAge
+    - Create a theme ( 4 45)
+    - GRID system intro ( 4 48)
